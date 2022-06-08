@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${USER:hackme}:${PASS:hackme}@${HOST:localhost}:${PORT:3306}/${DB:hackme}
+    driver-class-name: com.mysql.jdbc.Driver
